@@ -1,0 +1,15 @@
+{
+  "name": "bem_exercise",
+  "version": "1.0.0",
+  "description": "bem_exercise",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles.css"
+  },
+  "author": "Reyna Jane Cabuga",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+
+}

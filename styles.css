@@ -1,0 +1,51 @@
+body {
+  display: flex;
+}
+
+.card-light {
+  background-color: pink;
+  margin: 2em;
+  max-width: 300px;
+  padding: 2em;
+  box-shadow: 0 20px 30px -20px brown;
+}
+
+img {
+  width: 100%;
+}
+
+.card-dark {
+  background-color: gray;
+  margin: 2em;
+  max-width: 300px;
+  color: white;
+  box-shadow: 0 20px 30px -20px brown;
+
+}
+
+/* GLOBAL OR SHARED STYLES */
+
+
+.card {
+  margin: 2em;
+  max-width: 300px;
+  padding: 2em;
+  box-shadow: 0 20px 30px -20px brown;
+}
+
+.card--light {
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.card--dark {
+  background-color: blue;
+}
+
+/* SPACE COMBINATOR */
+
+/* .card p {
+  opacity: .8;
+} */
+
+/* SPECIFICITY */
